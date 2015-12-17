@@ -12,5 +12,6 @@ div[class*="Cookie"],
 div[id*="Cookie"],
 div#CkC,
 .cookiesFooter {
-    border: 2px solid red !important;
+    /* border: 2px solid red !important; */
+    display: none !important;
 }
