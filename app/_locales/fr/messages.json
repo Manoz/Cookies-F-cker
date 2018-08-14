@@ -1,0 +1,14 @@
+{
+  "extBetaName": {
+    "message": "Cookies Blocker Beta"
+  },
+  "extDescription": {
+    "message": "Cette extention cache les popups \"accepter les cookies?\" lorsque vous visitez un site. Parce que évidemment, vous les acceptez toujours..."
+  },
+  "extName": {
+    "message": "Cookies Blocker"
+  },
+  "extNightlyName": {
+    "message": "Cookies Blocker Nightly"
+  }
+}

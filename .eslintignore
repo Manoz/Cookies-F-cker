@@ -1,0 +1,4 @@
+dist
+app
+.cache
+node_modules

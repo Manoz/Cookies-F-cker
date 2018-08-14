@@ -1,0 +1,32 @@
+{
+  "name": "cookies-fucker",
+  "version": "1.2.0",
+  "description": "This extension hides the \"accept cookies?\" popup when you visit a website. Because of course, you always accept...",
+  "author": {
+    "name": "Kevin Legrand",
+    "email": "legrd.kevin@gmail.com",
+    "url": "http://k-legrand.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Manoz/Cookies-F-cker.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "npm run lint",
+    "build": "babel src --out-dir app",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-runtime": "^6.26.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
