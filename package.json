@@ -1,6 +1,6 @@
 {
   "name": "cookies-fucker",
-  "version": "1.2.0",
+  "version": "1.3",
   "description": "This extension hides the \"accept cookies?\" popup when you visit a website. Because of course, you always accept...",
   "author": {
     "name": "Kevin Legrand",
@@ -20,13 +20,13 @@
     "lint:fix": "eslint ./src --fix"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.6",
-    "babel-runtime": "^6.26.0",
     "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.3",
     "babel-preset-env": "^1.7.0",
-    "eslint": "4.19.1",
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-config-airbnb-base": "^13.0.0",
+    "babel-runtime": "^6.26.0",
+    "eslint": "6.7.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.14.0"
   }
 }
